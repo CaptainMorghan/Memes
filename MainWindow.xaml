@@ -1,0 +1,18 @@
+﻿<Window x:Class="Song.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Song"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1150" Width="1100">
+    <StackPanel>
+        <Label  x:Name="lblName" Content="SongList" />
+        <Button x:Name="btnCountryRoad" Click="BtnCountryRoad_Click" Content="Take me home"/>
+        <Button x:Name="btnRickRoll" Click="BtnRickRoll_Click" Content="Get Rolled" />
+        <Button x:Name="btnYMCA" Click="BtnYMCA_Click" Content="YOUNG MAN"/>
+        <Button x:Name="btnBitchLasangya" Click="BtnBitchLasangya_Click" Content="Pewdiepie vs t series" />
+        <Button x:Name="btnOwo" Click="BtnOwo_Click" Content="Owo" />
+        <Label  x:Name="lblOutput" Content=""/>
+    </StackPanel>
+</Window>
